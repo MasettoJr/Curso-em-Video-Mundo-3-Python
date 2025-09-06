@@ -1,0 +1,12 @@
+import random
+termo1 = random.randint(0, 10)
+termo2 = random.randint(0, 10)
+termo3 = random.randint(0, 10)
+termo4 = random.randint(0, 10)
+termo5 = random.randint(0, 10)
+tupla = (termo1, termo2, termo3, termo4, termo5)
+print(tupla)
+tupla = sorted(tupla)
+print(sorted(tupla))
+print(tupla[0])
+print(tupla[4])
