@@ -9,7 +9,7 @@ print(f"O maior valor digitado foi {max(lista)} nas posições", end=" ")
 for index, v in enumerate(lista):
     if v == maior_valor:
         print(f"{index}...", end=" ")
-print(f"\nO maior valor digitado foi {min(lista)} nas posições", end=" ")
+print(f"\nO menor valor digitado foi {min(lista)} nas posições", end=" ")
 for index, v in enumerate(lista):
     if v == menor_valor:
         print(f"{index}...", end=" ")
