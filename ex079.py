@@ -7,6 +7,6 @@ while True:
     else:
         print("Valor duplicado! Não vou adicionar...")
     opcao = str(input("Quer continuar? [S/N]: ")).strip()
-    if opcao in"Nn":
+    if opcao in "Nn":
         break
 print(f"Você digitou os valores {sorted(lista)}")
