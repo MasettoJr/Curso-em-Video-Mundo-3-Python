@@ -20,3 +20,5 @@ for i, jogo in enumerate(jogos):
     jogo.sort()
     print(f'Jogo {i + 1}: {jogo}', end='\n')
     sleep(1)
+
+print('BOA SORTE!')

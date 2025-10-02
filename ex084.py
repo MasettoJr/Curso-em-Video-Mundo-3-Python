@@ -3,12 +3,11 @@ pessoa_peso = []
 menor = maior = 0
 while True:
     pessoa_peso.append(str(input('Nome: ')))
-    pessoa_peso.append(int(input('Peso: ')))
+    pessoa_peso.append(float(input('Peso: ')))
     galera.append(pessoa_peso[:])
     pessoa_peso.clear()
     continua = str(input('Quer continuar? [S/N] '))
     print(galera)
-
     if continua in 'nN':
         break
 
